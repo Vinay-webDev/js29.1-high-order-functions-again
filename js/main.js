@@ -16,7 +16,12 @@ const filteredUsers = users.filter((user) => {
 })
 console.log(filteredUsers);
 
-
+// 3. our 3rd higher order function is map();
+const mappedUsers = filteredUsers.map((user) => {
+   return user.id * 10;
+   // id = 4; user.id * 10 = 4 * 10 = [40];
+});
+console.log(mappedUsers);
 
 
 

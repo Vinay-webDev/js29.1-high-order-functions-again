@@ -3,7 +3,7 @@
    2. returns function as the result */
 // ***remember need to use {} while exporting functions or files which are not default ****
 import {users} from './users.js';
-
+/*
 // 1. our first higher order function ==>> forEach()
 
 users.forEach(user => {
@@ -27,6 +27,26 @@ const reducedUserValue = mappedUsers.reduce((sum, user) => {
    return sum + user;
 })
 console.log(reducedUserValue);
+*/
+///////////////////////////////////////
+import {posts} from './posts.js';
+
+// 1. forEach();
+posts.forEach((post) => {
+   console.log(post);
+})
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -46,7 +46,11 @@ const mappedPosts = filteredPosts.map((post) => {
    return post.id * 10;
 });
 console.log(mappedPosts);
-
+// 4. reduce();
+const reducedPostValue = mappedPosts.reduce((sum, post) => {
+   return sum + post;
+});
+console.log(reducedPostValue);
 
 
 

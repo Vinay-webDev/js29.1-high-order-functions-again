@@ -22,8 +22,11 @@ const mappedUsers = filteredUsers.map((user) => {
    // id = 4; user.id * 10 = 4 * 10 = [40];
 });
 console.log(mappedUsers);
-
-
+// 4. our 4th higher order function is reduce();
+const reducedUserValue = mappedUsers.reduce((sum, user) => {
+   return sum + user;
+})
+console.log(reducedUserValue);
 
 
 

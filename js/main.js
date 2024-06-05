@@ -8,10 +8,13 @@ import {users} from './users.js';
 
 users.forEach(user => {
    console.log(user);
+}) 
+console.clear();
+// 2. filter() ==>> now we need to define our new array
+const filteredUsers = users.filter((user) => {
+   return user.id === 4;
 })
-
-
-
+console.log(filteredUsers);
 
 
 

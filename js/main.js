@@ -35,7 +35,12 @@ import {posts} from './posts.js';
 posts.forEach((post) => {
    console.log(post);
 })
-
+console.clear();
+// 2. filter();
+const filteredPosts = posts.filter((post) => {
+   return post.userId === 10;
+})
+console.log(filteredPosts);
 
 
 

@@ -41,8 +41,11 @@ const filteredPosts = posts.filter((post) => {
    return post.userId === 10;
 })
 console.log(filteredPosts);
-
-
+// 3. map();
+const mappedPosts = filteredPosts.map((post) => {
+   return post.id * 10;
+});
+console.log(mappedPosts);
 
 
 
